@@ -8,8 +8,28 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="card text-center">
+    <div id="sidebar">
+      <ul>
+        <li>
+          <a href="#summary">
+            <i class="fa fa-info-circle"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#favorite-movies">
+            <i class="fa fa-file-video-o"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#help">
+            <i class="fa fa-life-ring"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container" id="page-content">
+      <div class="card text-center" id="summary">
         <img class="profile-pic" src="images/profile.jpg" alt="Benoit" width="100" >
         <h1>Benoit</h1>
         <h2>Alumni @Le Wagon</h2>
@@ -40,7 +60,7 @@
       </div>
 
       <div class="card">
-        <h2 class="text-center">My Favorite movies</h2>
+        <h2 class="text-center" id="favorite-movies">My Favorite movies</h2>
         <table>
           <tbody>
             <tr>
@@ -74,7 +94,7 @@
         </table>
       </div>
 
-      <div class="card text-center">
+      <div class="card text-center" id="help">
         <h2>About this page</h2>
         This page has been coded during the <a href="https://lewagon.com/program" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
 
